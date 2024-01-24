@@ -35,4 +35,29 @@ a {
 
 ul {
   list-style: none;
+}
+
+header .header-top {
+  padding: 32px 0;
+  border-bottom: 1px solid grey;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header ul li a {
+  color: #828282;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  padding: 12px 15px;
+}
+header ul li a:first-of-type {
+  padding-left: 0;
+}
+header .header-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }/*# sourceMappingURL=Stayle.css.map */
