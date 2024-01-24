@@ -35,4 +35,95 @@ a {
 
 ul {
   list-style: none;
+}
+
+.wrapper-1 {
+  background-color: #F6F6F6;
+}
+.wrapper-1 .sectionAbout {
+  padding: 181px 0 107px 0;
+  width: 40%;
+  text-align: center;
+  margin: 0 auto;
+}
+.wrapper-1 .sectionAbout .sectionAbout-title {
+  color: #070707;
+  font-size: 34px;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 17px;
+}
+.wrapper-1 .sectionAbout p {
+  margin-bottom: 40px;
+  color: #070707;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sectionSkills {
+  padding: 91px 0 110px 0;
+}
+.sectionSkills .sectionSkills-title {
+  margin-bottom: 83px;
+  text-align: center;
+}
+.sectionSkills .sectionSkills-title h3 {
+  color: #070707;
+  font-size: 34px;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 70px;
+}
+.sectionSkills .sectionSkills-title p {
+  color: #070707;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+.sectionSkills .sectionSkills-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sectionSkills .sectionSkills-content .sectionSkills-item {
+  text-align: center;
+}
+.sectionSkills .sectionSkills-content .sectionSkills-item .card-img {
+  margin-bottom: 24px;
+}
+.sectionSkills .sectionSkills-content .sectionSkills-item p {
+  color: #828282;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 42px;
+}
+
+.sectionPort {
+  padding-top: 112px;
+  text-align: center;
+}
+.sectionPort h1 {
+  color: #070707;
+  font-size: 34px;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 47px;
+}
+.sectionPort .sectionPort-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 45px;
+  padding-bottom: 99px;
+}
+.sectionPort .sectionPort-body a {
+  padding: 10px 15px;
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: normal;
+  color: #070707;
 }/*# sourceMappingURL=Stayle.css.map */
