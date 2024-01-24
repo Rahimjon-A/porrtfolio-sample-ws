@@ -1,6 +1,6 @@
 header {
     .header-top {
-        padding: 32px 0 ;
+        padding: 32px 0;
         border-bottom: 1px solid grey;
     }
     ul {
@@ -15,11 +15,12 @@ header {
         }
 
         li a:hover {
-            color: ;
+            color: #070707; // !!!!!! $primaryColor //
+            font-weight: 800;
         }
 
         li a:first-of-type {
-            padding-left: 0
+            padding-left: 0;
         }
 
         li a:last-of-type {
@@ -28,6 +29,46 @@ header {
     }
 
     .header-title {
-        @include dFlex ( space-between, flex-end); 
+        @include dFlex(space-between, flex-end);
+        padding: 40px 0 30px 0;
+
+        h1 {
+            color: #070707; // $primaryColor //
+            font-size: 47.339px;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        p {
+            color: #070707; // $primaryColor
+            font-size: 18px;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .header-language {
+            margin-bottom: 26px;
+            transform: rotate(270deg);
+        }
+
+        span {
+            color: #828282; //$SecondaryColor //
+            font-size: 16px;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .en-lang {
+            color: #000;
+            font-weight: 800;
+        }
+    }
+
+    .header-img {
+        padding-bottom: 104px;
+
+        img {
+            width: 100%;
+        }
     }
 }
