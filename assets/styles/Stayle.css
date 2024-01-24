@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../Fonts/Regular.eot");
+  src: url("../Fonts/Regular.eot?#iefix") format("embedded-opentype"), url("../Fonts/Regular.woff2") format("woff2"), url("../Fonts/Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../Fonts/Medium.eot");
+  src: url("../Fonts/Medium.eot?#iefix") format("embedded-opentype"), url("../Fonts/Medium.woff2") format("woff2"), url("../Fonts/Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+  font-style: normal;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}/*# sourceMappingURL=Stayle.css.map */
