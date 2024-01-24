@@ -191,4 +191,51 @@ header .header-img img {
   font-size: 18px;
   line-height: normal;
   color: #070707;
+}
+
+.footer {
+  text-align: center;
+  padding: 114px 0 123px 0;
+}
+.footer h4 {
+  color: #070707;
+  font-weight: 800;
+  line-height: normal;
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+.footer p {
+  color: #070707;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+.footer button {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 86px;
+  background-color: #000;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 60px;
+}
+.footer .footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 45px;
+}
+.footer span {
+  color: #828282;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+html {
+  scroll-behavior: smooth;
 }/*# sourceMappingURL=Stayle.css.map */
