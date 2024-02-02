@@ -1,15 +1,15 @@
 @font-face {
   font-family: "Gilroy";
-  src: url("../Fonts/Regular.eot");
-  src: url("../Fonts/Regular.eot?#iefix") format("embedded-opentype"), url("../Fonts/Regular.woff2") format("woff2"), url("../Fonts/Regular.woff") format("woff");
+  src: url("../Fonts/Gilroy-Regular.eot");
+  src: url("../Fonts/Gilroy-Regular.eot?#iefix") format("embedded-opentype"), url("../Fonts/Gilroy-Regular.woff2") format("woff2"), url("../Fonts/Gilroy-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Gilroy";
-  src: url("../Fonts/Medium.eot");
-  src: url("../Fonts/Medium.eot?#iefix") format("embedded-opentype"), url("../Fonts/Medium.woff2") format("woff2"), url("../Fonts/Medium.woff") format("woff");
+  src: url("../Fonts/Gilroy-Medium.eot");
+  src: url("../Fonts/Gilroy-Medium.eot?#iefix") format("embedded-opentype"), url("../Fonts/Gilroy-Medium.woff2") format("woff2"), url("../Fonts/Gilroy-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -35,6 +35,11 @@ a {
 
 ul {
   list-style: none;
+}
+
+h1, p {
+  margin: 0 0;
+  line-height: 0;
 }
 
 header .header-top {
@@ -63,45 +68,122 @@ header ul li a:first-of-type {
 header ul li a:last-of-type {
   padding-right: 0;
 }
-header .header-title {
+header .navigation .header-title {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   padding: 40px 0 30px 0;
 }
-header .header-title h1 {
+header .navigation .header-title h1 {
   color: #070707;
   font-size: 47.339px;
-  font-weight: 400;
+  font-weight: 800;
   line-height: normal;
 }
-header .header-title p {
+header .navigation .header-title p {
   color: #070707;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: normal;
 }
-header .header-title .header-language {
+header .navigation .header-title .header-language {
   margin-bottom: 26px;
   transform: rotate(270deg);
 }
-header .header-title span {
+header .navigation .header-title span {
   color: #828282;
   font-size: 16px;
   font-weight: 400;
   line-height: normal;
 }
-header .header-title .en-lang {
+header .navigation .header-title .en-lang {
   color: #000;
   font-weight: 800;
+}
+header .navigation .accordion-btn i {
+  display: none;
 }
 header .header-img {
   padding-bottom: 104px;
 }
-header .header-img img {
+header .header-img .header-img1 {
   width: 100%;
 }
+header .header-img .header-img1 img {
+  width: 100%;
+}
+header .header-img .header-img2 {
+  display: none;
+}
 
+@media (max-width: 480px) {
+  header .header-top {
+    display: none;
+  }
+  header .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 68px;
+  }
+  header .navigation .header-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0;
+  }
+  header .navigation .header-title h1 {
+    margin-bottom: 30px;
+  }
+  header .navigation .header-title p {
+    margin-bottom: 30px;
+  }
+  header .navigation .header-title .header-language {
+    display: none;
+  }
+  header .navigation .accordion-btn i {
+    display: block;
+    font-size: 33px;
+    color: #000;
+  }
+  header .header-img {
+    padding-bottom: 70px;
+  }
+  header .header-img .header-img1 {
+    display: none;
+  }
+  header .header-img .header-img2 {
+    display: block;
+    width: 100%;
+  }
+  header .header-img .header-img2 img {
+    width: 100%;
+  }
+  .wrapper-1 .container .sectionAbout {
+    padding: 75px 20px 35px 20px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .container .sectionSkills .sectionSkills-title p {
+    font-weight: 600;
+  }
+  .container .sectionSkills .sectionSkills-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 80px;
+  }
+  .container .sectionSkills .sectionSkills-content .sectionSkills-item p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .wrapper-1 .container .sectionPort .sectionPort-body img {
+    width: 340px;
+  }
+  .footer {
+    padding: 80px 0;
+  }
+}
 .wrapper-1 {
   background-color: #F6F6F6;
 }

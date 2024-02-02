@@ -4,6 +4,13 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./assets/styles/Stayle.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
         <title>Portfolio Web Site with SASS</title>
     </head>
     <body>
@@ -20,44 +27,64 @@
                 </div>
 
                 <div class="header-bot">
-                    <div class="header-title">
-                        <h1>
-                            Denis <br />
-                            Novik
-                        </h1>
-                        <p>
-                            UX | UI designer <br />
-                            24 years old, Minsk
-                        </p>
-                        <div class="header-language" > <span>RU <span class="en-lang">| ENG</span></span> </div>
+                    <div class="navigation">
+                        <div class="header-title">
+                            <h1>
+                                Denis <br />
+                                Novik
+                            </h1>
+                            <p>
+                                UX | UI designer <br />
+                                24 years old, Minsk
+                            </p>
+                            <div class="header-language">
+                                <span
+                                    >RU <span class="en-lang">| ENG</span></span
+                                >
+                            </div>
+                        </div>
+
+                        <div class="accordion-btn">
+                            <i class="fas fa-bars"></i>
+                        </div>
                     </div>
 
                     <div class="header-img">
-                        <img
-                            src="./assets/images/logo/hero-img.png"
-                            alt="image"
-                        />
+                        <div  class="header-img1">
+                            <img
+                                src="./assets/images/logo/hero-img.png"
+                                alt="image"
+                            />
+                        </div>
+
+                        <div class="header-img2">
+                            <img
+                                src="./assets/images/images-main/header-img2.svg"
+                                alt="image"
+                            />
+                        </div>
                     </div>
                 </div>
             </header>
         </div>
-       
+
         <main>
             <div class="wrapper-1">
                 <div class="container">
                     <section class="sectionAbout" id="About">
                         <h2 class="sectionAbout-title">About me</h2>
-    
+
                         <p>
                             Hi, I'm Denis – UX/UI designer from Minsk. I'm
-                            interested in design and everything connected with it.
+                            interested in design and everything connected with
+                            it.
                         </p>
-    
+
                         <p>
                             I'm studying at courses "Web and mobile design
                             interfaces" in IT-Academy.
                         </p>
-    
+
                         <p>
                             Ready to implement excellent projects with wonderful
                             people.
@@ -65,69 +92,131 @@
                     </section>
                 </div>
             </div>
-    
+
             <div class="container">
                 <div class="sectionSkills" id="Skills">
                     <div class="sectionSkills-title">
                         <h3>Skills</h3>
                         <p>I work in such programs as</p>
                     </div>
-    
-    
+
                     <div class="sectionSkills-content">
-                        <div class="sectionSkills-item" >
-                            <img class="card-img" src="./assets/images/images-main/card-img1.svg" width="89" height="89" alt="image">
-                            <p>Adobe <br>
-                                Photoshop</p>
-    
-                            <img class="card-icon" src="./assets/images/images-main/4-yulduz.svg" width="166" height="26" alt="image">
+                        <div class="sectionSkills-item">
+                            <img
+                                class="card-img"
+                                src="./assets/images/images-main/card-img1.svg"
+                                width="89"
+                                height="89"
+                                alt="image"
+                            />
+                            <p>
+                                Adobe <br />
+                                Photoshop
+                            </p>
+
+                            <img
+                                class="card-icon"
+                                src="./assets/images/images-main/4-yulduz.svg"
+                                width="166"
+                                height="26"
+                                alt="image"
+                            />
                         </div>
-    
-                        <div class="sectionSkills-item" >
-                            <img class="card-img" src="./assets/images/images-main/card-img2.svg" width="89" height="89" alt="image">
-                            <p>Adobe <br>
-                                Illustrator</p>
-    
-                            <img class="card-icon" src="./assets/images/images-main/uch-yulduz.svg" width="166" height="26" alt="image">
+
+                        <div class="sectionSkills-item">
+                            <img
+                                class="card-img"
+                                src="./assets/images/images-main/card-img2.svg"
+                                width="89"
+                                height="89"
+                                alt="image"
+                            />
+                            <p>
+                                Adobe <br />
+                                Illustrator
+                            </p>
+
+                            <img
+                                class="card-icon"
+                                src="./assets/images/images-main/uch-yulduz.svg"
+                                width="166"
+                                height="26"
+                                alt="image"
+                            />
                         </div>
-    
-                        <div class="sectionSkills-item" >
-                            <img class="card-img" src="./assets/images/images-main/card-img3.svg" width="89" height="89" alt="image">
-                            <p>Adobe  <br>
-                                After Effects</p>
-    
-                            <img class="card-icon" src="./assets/images/images-main/4-yulduz.svg" width="166" height="26" alt="image">
+
+                        <div class="sectionSkills-item">
+                            <img
+                                class="card-img"
+                                src="./assets/images/images-main/card-img3.svg"
+                                width="89"
+                                height="89"
+                                alt="image"
+                            />
+                            <p>
+                                Adobe <br />
+                                After Effects
+                            </p>
+
+                            <img
+                                class="card-icon"
+                                src="./assets/images/images-main/4-yulduz.svg"
+                                width="166"
+                                height="26"
+                                alt="image"
+                            />
                         </div>
-    
-                        <div class="sectionSkills-item" >
-                            <img class="card-img" src="./assets/images/images-main/card-img4.svg" width="89" height="89" alt="image">
+
+                        <div class="sectionSkills-item">
+                            <img
+                                class="card-img"
+                                src="./assets/images/images-main/card-img4.svg"
+                                width="89"
+                                height="89"
+                                alt="image"
+                            />
                             <p>Figma</p>
-    
-                            <img class="card-icon" src="./assets/images/images-main/4-yulduz.svg" width="166" height="26" alt="image">
+
+                            <img
+                                class="card-icon"
+                                src="./assets/images/images-main/4-yulduz.svg"
+                                width="166"
+                                height="26"
+                                alt="image"
+                            />
                         </div>
                     </div>
                 </div>
             </div>
-    
+
             <div class="wrapper-1">
                 <div class="container">
                     <div class="sectionPort" id="Portfolio">
-                         <h1>Portfolio</h1>
-    
-                         <div class="sectionPort-body">
-                            <img src="./assets/images/images-main/portfolio-img1.png" alt="image">
-                         <a href="#">Online fashion store - Homepage</a>
-                         </div>
-    
-                         <div class="sectionPort-body">
-                            <img src="./assets/images/images-main/portfolio-img2.png" alt="image">
-                         <a href="#">Reebok Store - Concept</a>
-                         </div>
-    
-                         <div class="sectionPort-body">
-                            <img src="./assets/images/images-main/portfolio-img-3.png" alt="image">
-                         <a href="#">Braun Landing Page - Concept</a>
-                         </div>
+                        <h1>Portfolio</h1>
+
+                        <div class="sectionPort-body">
+                            <img
+                                src="./assets/images/images-main/portfolio-img1.png"
+                                alt="image"
+                            />
+                            <a href="#">Online fashion store - Homepage</a>
+                        </div>
+
+                        <div class="sectionPort-body">
+                            <img
+                                src="./assets/images/images-main/portfolio-img2.png"
+                                alt="image"
+                            />
+                            <a href="#">Reebok Store - Concept</a>
+                        </div>
+
+                        <div class="sectionPort-body">
+                            <img
+                                src="./assets/images/images-main/portfolio-img-3.png"
+                                alt="image"
+                            />
+                            <a href="#">Braun Landing Page - Concept</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -176,8 +265,7 @@
                     >Like me on <br />
                     LinkedIn, Instagram, Behance, Dribble</span
                 >
-        </footer>
-        </div>
+            </footer>
         </div>
     </body>
 </html>

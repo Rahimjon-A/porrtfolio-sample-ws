@@ -28,47 +28,182 @@ header {
         }
     }
 
-    .header-title {
-        @include dFlex(space-between, flex-end);
-        padding: 40px 0 30px 0;
+    .navigation {
+        .header-title {
+            @include dFlex(space-between, flex-end);
+            padding: 40px 0 30px 0;
 
-        h1 {
-            color: #070707; // $primaryColor //
-            font-size: 47.339px;
-            font-weight: 400;
-            line-height: normal;
+            h1 {
+                color: #070707; // $primaryColor //
+                font-size: 47.339px;
+                font-weight: 800;
+                line-height: normal;
+            }
+
+            p {
+                color: #070707; // $primaryColor
+                font-size: 18px;
+                font-weight: 600;
+                line-height: normal;
+            }
+
+            .header-language {
+                margin-bottom: 26px;
+                transform: rotate(270deg);
+            }
+
+            span {
+                color: #828282; //$SecondaryColor //
+                font-size: 16px;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            .en-lang {
+                color: #000;
+                font-weight: 800;
+            }
         }
 
-        p {
-            color: #070707; // $primaryColor
-            font-size: 18px;
-            font-weight: 400;
-            line-height: normal;
-        }
-
-        .header-language {
-            margin-bottom: 26px;
-            transform: rotate(270deg);
-        }
-
-        span {
-            color: #828282; //$SecondaryColor //
-            font-size: 16px;
-            font-weight: 400;
-            line-height: normal;
-        }
-
-        .en-lang {
-            color: #000;
-            font-weight: 800;
+        .accordion-btn i {
+            display: none;
         }
     }
-
     .header-img {
         padding-bottom: 104px;
 
-        img {
+        .header-img1 {
             width: 100%;
+
+            img {
+                width: 100%;
+            }
         }
+
+        .header-img2 {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        .header-top {
+            display: none;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding-top: 68px;
+
+            .header-title {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 0 0;
+
+                h1 {
+                    margin-bottom: 30px;
+                }
+
+                p {
+                    margin-bottom: 30px;
+                }
+
+                .header-language {
+                    display: none;
+                }
+            }
+
+            .accordion-btn {
+                i {
+                    display: block;
+                    font-size: 33px;
+                    color: #000;
+                }
+            }
+        }
+
+        .header-img {
+            padding-bottom: 70px;
+
+            .header-img1 {
+                display: none;
+            }
+
+            .header-img2 {
+                display: block;
+                width: 100%;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .wrapper-1 {
+        
+        .container {
+
+            .sectionAbout {
+                padding: 75px 20px 35px 20px;
+                width: 100%;
+                text-align: center;
+                margin: 0 auto;
+    
+            }
+        }
+    }
+
+
+    .container {
+
+        .sectionSkills {
+
+            .sectionSkills-title {
+                p {
+                    font-weight: 600;
+                }
+            }
+
+            .sectionSkills-content {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 80px;
+
+                .sectionSkills-item {
+
+                    p {
+                        font-size: 20px;
+                        font-weight: 500;
+
+                    }
+                }
+            }
+        }
+    }
+
+    .wrapper-1 {
+
+        .container {
+
+            .sectionPort {
+
+                .sectionPort-body {
+
+                    img {
+                        width: 340px;
+
+                    }
+                }
+            }
+        }
+    }
+
+    .footer {
+        padding: 80px 0 ;
     }
 }
